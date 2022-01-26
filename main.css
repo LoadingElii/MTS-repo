@@ -2,4 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start;
+    
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    
+}
+
+.one {
+    background: rgb(70, 202, 255);
+}
+.two {
+    background: rgb(248, 245, 75);
+}
+.three {
+    background: rgb(245, 103, 245);
+}
+.four {
+    background: rgb(169, 247, 90);
 }
