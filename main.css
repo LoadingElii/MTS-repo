@@ -12,6 +12,7 @@ section {
     align-items: center;
     color: white;
     scroll-snap-align: start;
+    scroll-snap-stop: always;
     
 }
 
